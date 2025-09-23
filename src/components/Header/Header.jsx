@@ -4,10 +4,10 @@ import "./Header.css"
 
 const Header = () => {
     return (
-        <div id='header'>
-            <img src={NavLogo} alt='logo'/>
+        <header>
+            <img id='header-img' src={NavLogo} alt='logo'/>
             <Navbar />
-        </div>
+        </header>
     )
 }
 

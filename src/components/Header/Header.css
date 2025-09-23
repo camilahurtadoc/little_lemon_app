@@ -1,14 +1,14 @@
-#header {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2em;
     height: 100px;
-    width: 100%;
     position: fixed;
     top: 0px;
 }
 
-img {
+#header-img {
     height: 59px;
     width: 218px;
 }
