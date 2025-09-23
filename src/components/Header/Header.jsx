@@ -1,11 +1,13 @@
+import NavLogo from '../../assets/images/logoLong.png'
 import Navbar from "../Navbar/Navbar"
+import "./Header.css"
 
 const Header = () => {
     return (
-        <>
-            <h2>Header</h2>
+        <div id='header'>
+            <img src={NavLogo} alt='logo'/>
             <Navbar />
-        </>
+        </div>
     )
 }
 
