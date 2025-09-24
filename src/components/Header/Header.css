@@ -1,14 +1,8 @@
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2em;
-    height: 100px;
-    position: fixed;
-    top: 0px;
+#header-img {
+    max-height: 59px;
+    max-width: 218px;
 }
 
-#header-img {
-    height: 59px;
-    width: 218px;
-}
+/* #container {
+    display: inline;
+} */

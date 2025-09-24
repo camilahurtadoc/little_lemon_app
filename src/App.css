@@ -1,13 +1,23 @@
 * {
-  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-main {
-  text-align: center;
+.navbar .nav-link{
+  font-weight: 500;
+  color: #333333;
+  width: auto;
+  margin: auto 1em;
 }
+
+.navbar .nav-link:hover {
+  color: #F4CE14;
+}
+
+/* main {
+  text-align: center;
+} */
 
 /* #root {
   max-width: 1280px;
