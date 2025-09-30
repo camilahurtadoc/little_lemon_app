@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Highlights from './components/Highlights/Highlights'
 import Testimonials from './components/Testimonials/Testimonials'
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
         <Testimonials />
         <About />
       </main>
+      <Routes>
+        <Route path='/'/>
+        <Route path='/reservations'/>
+      </Routes>
       <Footer />
     </>
   )
