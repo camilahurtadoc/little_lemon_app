@@ -3,13 +3,6 @@
     max-width: 218px;
 }
 
-.navbar .nav-link{
-  font-weight: 500;
-  color: #333333;
-  width: auto;
-  margin: auto 1em;
+#navbar {
+  background-color: #EDEFEE;
 }
-
-/* #container {
-    display: inline;
-} */

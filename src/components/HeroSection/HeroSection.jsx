@@ -17,7 +17,7 @@ const HeroSection = () => {
               <h3>Chicago</h3>
             </div>
             <p className='w-75 py-4'>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-            <Button className='yellow-button' href="/reservations">Reserve a table</Button>
+            <Button className='yellow-button px-4' href="/reservations">Reserve a table</Button>
           </div>
         </Col>
         <Col md={4} className='d-flex justify-content-center'>

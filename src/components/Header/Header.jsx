@@ -11,9 +11,9 @@ const Header = () => {
     
     return (
         <>
-            <Navbar expand="lg" className="bg-body-tertiary" id='navbar'>
-                <Container className='w-auto' id='container'>
-                    <Navbar.Brand href="#home" className='w-auto' id='brand'><img src={NavLogo} id='header-img' alt='logo' /></Navbar.Brand>
+            <Navbar expand="lg" className="" id='navbar'>
+                <Container className='w-auto'>
+                    <Navbar.Brand href="#home" className='w-auto'><img src={NavLogo} id='header-img' alt='logo' /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='w-auto' id="basic-navbar-nav">
                         <Nav className="me-auto">
