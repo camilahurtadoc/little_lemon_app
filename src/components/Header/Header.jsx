@@ -7,6 +7,8 @@ import { NavLink } from 'react-router-dom'
 import "./Header.css"
 
 const Header = () => {
+    const setActiveClass = ({ isActive, isPending }) => (isPending ? "pending nav-link" : isActive ? "active nav-link" : "nav-link");
+    
     return (
         <>
             <Navbar expand="lg" className="bg-body-tertiary" id='navbar'>
@@ -15,12 +17,12 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='w-auto' id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link to="/">Home</Nav.Link>
-                            <Nav.Link to="/">About</Nav.Link>
-                            <Nav.Link to="/">Menu</Nav.Link>
-                            <Nav.Link to="/">Reservations</Nav.Link>
-                            <Nav.Link to="/">Order Online</Nav.Link>
-                            <Nav.Link to="/">Login</Nav.Link>
+                            <NavLink to="/" className={setActiveClass}>Home</NavLink>
+                            <NavLink to="/about" className={setActiveClass}>About</NavLink>
+                            <NavLink to="/menu" className={setActiveClass}>Menu</NavLink>
+                            <NavLink to="/reservations" className={setActiveClass}>Reservations</NavLink>
+                            <NavLink to="/order_online" className={setActiveClass}>Order Online</NavLink>
+                            <NavLink to="/login" className={setActiveClass}>Login</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

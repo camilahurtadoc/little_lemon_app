@@ -6,9 +6,18 @@
 
 .navbar .nav-link{
   font-weight: 500;
-  color: #333333;
+  color: #333333 !important;
   width: auto;
   margin: auto 1em;
+}
+
+.navbar .nav-link.active{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.navbar .nav-link.pending {
+  color: #EE9972;
 }
 
 .navbar .nav-link:hover {
