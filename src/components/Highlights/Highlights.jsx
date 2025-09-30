@@ -1,7 +1,14 @@
+import WeekSpecial from "../WeekSpecial/WeekSpecial"
 
 const Highlights = () => {
   return (
-    <>Highlights</>
+    <>
+      <h2>This weeks specials</h2>
+      <button>Online Menu</button>
+      <WeekSpecial />
+      <WeekSpecial />
+      <WeekSpecial />
+    </>
   )
 }
 
