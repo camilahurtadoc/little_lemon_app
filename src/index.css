@@ -1,9 +1,7 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
-  /* color-scheme: light dark; */
+:root {
+  font-family: 'Markazi Text', 'Karla', sans-serif;
   color: #333333;
   background-color: #EDEFEE;
 
@@ -11,6 +9,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
 }
 
 a {
@@ -22,6 +21,7 @@ a:hover {
 }
 
 body {
+  /* margin: 0; */
   /* margin: 0;
   display: flex;
   justify-content: center; */
@@ -29,10 +29,50 @@ body {
   min-height: 100vh;
 }
 
-/* h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-} */
+h2 {
+  font-family: 'Markazi Text';
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+h3 {
+  font-family: 'Markazi Text';
+  font-size: 40px;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Karla';
+  font-size: 20px;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: 'Karla';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Karla';
+}
+
+img {
+  border-radius: 16px;
+}
+
+.yellow-button {
+  background-color: #F4CE14;
+  border: #F4CE14;
+  color: #333333;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
 
 /* button {
   border-radius: 8px;
