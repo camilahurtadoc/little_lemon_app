@@ -19,12 +19,6 @@ function App() {
   return (
     <>
       <Header />
-      <main>
-        <h2>Main</h2>
-        <Highlights />
-        <Testimonials />
-        <About />
-      </main>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<AboutPage /> } />
