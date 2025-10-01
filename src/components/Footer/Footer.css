@@ -1,7 +1,10 @@
+footer {
+    background-color: #EDEFEE;
+}
+
 #footer-img {
     max-width: 150px;
 }
-
 
 .footer-list ul{
     list-style-type: none;
