@@ -10,8 +10,8 @@ import Button from 'react-bootstrap/Button';
 const Highlights = () => {
   return (
     <>
-      <Container fluid className="py-5 bg-body-primary">
-        <Row className="mb-4">
+      <Container fluid className="py-5">
+        <Row className="my-4">
           <Col xs={0} md={2}></Col>
           <Col md={6}>
             <h2>This weeks specials</h2>
@@ -21,18 +21,18 @@ const Highlights = () => {
           </Col>
           <Col xs={0} md={2}></Col>
         </Row>
-        <Row>
+        <Row className="my-5">
           <Col xs={0} md={2}></Col>
           <Col xs={12} md={8}>
             <Row>
               <Col md={4}>
-                <WeekSpecial img={greekSalad} title={"Greek Salad"} description={"The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."} />
+                <WeekSpecial img={greekSalad} title={"Greek Salad"} price={"$12.99"} description={"The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."} />
               </Col>
               <Col md={4}>
-                <WeekSpecial img={bruschetta} title={"Bruschetta"} description={"Our bruschetta is made from frilled bread that has been smeared with garlic and seasoned with salt and olive oil."} />
+                <WeekSpecial img={bruschetta} title={"Bruschetta"} price={"$14.99"} description={"Our bruschetta is made from frilled bread that has been smeared with garlic and seasoned with salt and olive oil."} />
               </Col>
               <Col md={4}>
-                <WeekSpecial img={lemonDessert} title={"Lemon Dessert"} description={"This comes straight from grandma’s recipe book, every last ingredient has been sourced ans is as authentic as can be imagined."} />
+                <WeekSpecial img={lemonDessert} title={"Lemon Dessert"} price={"$10.99"} description={"This comes straight from grandma’s recipe book, every last ingredient has been sourced ans is as authentic as can be imagined."} />
               </Col>
             </Row>
           </Col>

@@ -1,3 +1,44 @@
 #specials-card {
     background-color: #EDEFEE;
+    border: 1px solid #495E57;
+    border-radius: 16px;
+}
+
+#specials-card img {
+    max-height: 300px;
+}
+
+#specials-price {
+    color: #B02626;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #specials-card img {
+        height: 150px;
+    }
+
+    #specials-card p {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 992px ) and (max-width: 1199px) {
+    #specials-card img {
+        height: 190px;
+    }
+
+    #specials-card p {
+        height: 165px;
+    }
+}
+
+@media screen and (min-width: 1200px ) {
+    #specials-card img {
+        height: 240px;
+    }
+
+    #specials-card p {
+        height: 140px;
+    }
 }
