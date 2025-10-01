@@ -12,7 +12,7 @@ const WeekSpecial = ({ img, title, price, description }) => {
       </div>
       <p className='mx-3' >{description}</p>
       <div className='d-flex align-items-end'>
-        <h6 className='mx-3 my-0 py-3'>Order Delivery</h6>
+        <h5 className='mx-3 my-0 py-3'>Order Delivery</h5>
         <FontAwesomeIcon className='py-3 fs-4' icon={faPersonBiking} />
       </div>
 

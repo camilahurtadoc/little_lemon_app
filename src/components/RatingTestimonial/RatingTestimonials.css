@@ -1,0 +1,15 @@
+#rating {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    min-width: 160px;
+}
+
+#rating p {
+    height: 70px;
+}
+
+
+
+#rating-stars {
+    color: gold;
+}
