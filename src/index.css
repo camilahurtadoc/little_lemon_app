@@ -68,3 +68,18 @@ img {
   font-weight: 700;
   font-size: 20px;
 }
+
+.yellow-button:hover {
+  background-color: #F4CE14;
+  border: #F4CE14;
+  color: #333333;
+  text-decoration: underline;
+}
+
+.yellow-button:active,
+.yellow-button:focus,
+.yellow-button:active:focus {
+  background-color: #EE9972;
+  color: #333333;
+  text-decoration: underline;
+}
