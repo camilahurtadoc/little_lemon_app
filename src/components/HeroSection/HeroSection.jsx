@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <Container fluid className='py-5' id='hero-container'>
       <Row>
-        <Col xs={0} md={2}></Col>
+        <Col md={2}></Col>
         <Col md={4} className='d-flex align-items-center justify-content-center mb-2'>
           <div>
             <div>
@@ -20,10 +20,10 @@ const HeroSection = () => {
             <Button className='yellow-button px-4' href="/reservations">Reserve a table</Button>
           </div>
         </Col>
-        <Col md={4} className='d-flex justify-content-center'>
+        <Col md={4} className='d-flex justify-content-start mt-2'>
           <img className='object-fit-cover' src={HeroPic} alt='food on plate' />
         </Col>
-        <Col xs={0} md={2}></Col>
+        <Col md={2}></Col>
       </Row>
     </Container>
   )

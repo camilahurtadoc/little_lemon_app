@@ -1,8 +1,13 @@
 #header-img {
-    max-height: 59px;
-    max-width: 218px;
+    max-width: 165px;
 }
 
 #navbar {
   background-color: #EDEFEE;
+}
+
+#navbar .nav-link {
+  font-family: 'Karla';
+  font-size: 20px;
+  font-weight: 700;
 }
