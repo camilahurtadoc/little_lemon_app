@@ -17,7 +17,7 @@ const Highlights = () => {
             <h2>This weeks specials</h2>
           </Col>
           <Col md={2}>
-            <Button className="yellow-button px-4">Online Menu</Button>
+            <Button className="yellow-button px-4" href="/menu">Online Menu</Button>
           </Col>
           <Col xs={0} md={2}></Col>
         </Row>
