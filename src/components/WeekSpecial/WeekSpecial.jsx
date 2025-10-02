@@ -6,14 +6,14 @@ const WeekSpecial = ({ img, title, price, description }) => {
   return (
     <div className='mb-2' id='specials-card'>
       <img src={img} className='object-fit-cover w-100' />
-      <div className='d-flex justify-content-between'>
-        <h5 className='my-3 mx-3 h-auto'>{title}</h5>
-        <p className='m-3 h-auto' id='specials-price'>{price}</p>
+      <div className='d-flex align-items-center' id='title-price-box'>
+        <h5 className='h-auto' id='card-title'>{title}</h5>
+        <p className='h-auto' id='specials-price'>{price}</p>
       </div>
       <p className='mx-3' >{description}</p>
-      <div className='d-flex align-items-end'>
-        <h5 className='mx-3 my-0 py-3'>Order Delivery</h5>
-        <FontAwesomeIcon className='py-3 fs-4' icon={faPersonBiking} />
+      <div className='d-flex align-items-end gap-1'>
+        <h5 className='ms-3 my-0 py-3'>Order Delivery</h5>
+        <FontAwesomeIcon className='py-3 fs-4 me-1' icon={faPersonBiking} />
       </div>
 
     </div>
