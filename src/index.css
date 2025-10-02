@@ -61,7 +61,7 @@ img {
 
 .yellow-button {
   background-color: #F4CE14;
-  border: #F4CE14;
+  border: none;
   border-radius: 16px;
   color: #333333;
   font-family: 'Karla';
@@ -71,14 +71,14 @@ img {
 
 .yellow-button:hover {
   background-color: #F4CE14;
-  border: #F4CE14;
   color: #333333;
   text-decoration: underline;
 }
 
 .yellow-button:active,
 .yellow-button:focus,
-.yellow-button:active:focus {
+.yellow-button:active:focus,
+.yellow-button.active {
   background-color: #EE9972;
   color: #333333;
   text-decoration: underline;
