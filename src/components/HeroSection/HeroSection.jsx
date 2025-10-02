@@ -20,7 +20,7 @@ const HeroSection = () => {
             <Button className='yellow-button px-4' href="/reservations">Reserve a table</Button>
           </div>
         </Col>
-        <Col md={4} className='d-flex justify-content-start mt-2'>
+        <Col md={4} className='d-flex mt-2' id='hero-img-col'>
           <img className='object-fit-cover' src={HeroPic} alt='food on plate' />
         </Col>
         <Col md={2}></Col>
